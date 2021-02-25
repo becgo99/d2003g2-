@@ -1,0 +1,223 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+
+}
+h1, h2, h3, h4, h4{
+	font-family: 'DotGothic16', sans-serif;
+}
+body{
+	font-family: 'Cairo', sans-serif;
+}
+#wrapper{
+	width: 100%;
+	background: rgba(217,209,193,1.00);
+	height: 2700px;
+}
+.container{
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.header{
+	width: 100%;
+	height: 100px;
+/*	background :red;*/
+}
+.header-main{
+	width: 100%;
+	height:40px;
+/*	background: yellow;*/
+	display: flex;
+	justify-content: space-between;
+}
+.logo{
+	width: 25%;
+	height: 40px;
+/*	background: black*/
+	border: 2px solid black;
+	
+}
+.logo a{
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: none;
+	color: grey;
+	opacity: 70%;
+}
+.menu{
+	width: 75%;
+	height: 150px;
+}
+.menu ul{
+	background: black;
+	height: 40px;
+	border: 2px solid black;
+	display: flex;
+	justify-content: space-around;
+	font-size: 30px;
+	font-weight: 600;
+	text-decoration: none;
+	list-style: none;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: White;
+	transition-duration: 0.2s;
+}
+.main{
+	width: 100%;
+}
+.title{
+	width: 100%;
+	height: 300px;
+/*	background: red;*/
+	padding:0;
+	padding-left: 50px;
+	font-size: 25px;
+	position: relative;
+	
+}
+.Firstword {
+	width: 40%;
+	height: 700px;
+	position: absolute;
+	left: 700px;
+	top: 300px;
+}
+.Firstword a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	right: 30px;
+	text-align: center;
+	margin: 0 auto;
+}
+.Secondword {
+	width: 40%;
+	height: 300px;
+	position: absolute;
+	top: 1100px;
+	left: 40px;
+}
+.Secondword a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+}
+.Thirdword{
+	width: 40%;
+	height: 300px;
+	position: absolute;
+	top: 1400px;
+	left: 700px;
+}
+.Thirdword a{
+	text-decoration: none;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+.Forthword{
+	width: 40%;
+	height: 300px;
+	position: absolute;
+	top: 2100px;
+}
+.Forthword a{
+	text-decoration: none;
+	color: black;
+	font-size: 30
+		px;
+}
+.malboro{
+/*	background: green;*/
+	width: 100%;
+	height:500px;
+}
+.banner{
+	width:100%;
+	height: 500px;
+/*	background: rgba(0,0,0,1.00)*/
+	position: relative;
+
+}
+.banner img{
+	position: absolute;
+}
+.hoodie{
+	width: 600px;
+	right:90px;
+	top:300px;	
+}
+.hoodie-treo{
+	width: 600px;
+	left:0px;
+	top:1200px;
+/*	transform: rotate(90deg);*/
+}
+.hoodieee{
+	width: 500px;
+	right:30px;
+	top:1500px;
+/*	transform: rotate(90deg);*/
+}
+.lucky{
+	width: 500px;
+	left:0px;
+/*	transform: rotate(90deg);*/
+	z-index: 1;
+	top: 50px;
+}
+.luckytitle a{
+	font-size: 70px;
+	text-decoration: none;
+	color: yellow;
+	position: absolute;
+	top: 800px;
+	left: 80px;
+	z-index: 2;
+	opacity: 70%;
+}
+.hoodietitle a{
+	font-size: 70px;
+	text-decoration: none;
+	color: yellow;
+	position: absolute;
+	top: 980px;
+	right: 100px;
+	z-index: 3;
+	opacity: 70%;
+}
+.hoodie-treotitle a{
+	font-size: 70px;
+	text-decoration: none;
+	color: yellow;
+	position: absolute;
+	top: 1700px;
+	left: 300px;
+	z-index: 3;
+	opacity: 70%;
+}
+.hoodieeetitle a{
+	font-size: 70px;
+	text-decoration: none;
+	color: yellow;
+	position: absolute;
+	top: 1900px;
+	right: 260px;
+	z-index: 3;
+	opacity: 70%;
+}
+.endword{
+	font-size: 30px;
+	text-decoration: none;
+	color: black;
+	position: relative;
+	top: 2150px;
+	padding: 0;
+	text-align: center;
+	margin: 0 auto;
+	
+}
